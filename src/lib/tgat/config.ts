@@ -1,0 +1,45 @@
+// TGAT Configuration
+// Generated from top_200_exam_universe_seed.csv
+
+export const EXAM_CONFIG = {
+  examId: "EXAM080",
+  slug: "tgat",
+  name: "TGAT",
+  fullName: "Thai General Aptitude Test",
+  alias: "Thai General Aptitude Test",
+  family: "TCAS",
+  category: "Admissions",
+  subcategory: "University admissions",
+  country: "Thailand",
+  region: "Southeast Asia",
+  languages: ["Thai"],
+  estimatedAnnualTakers: "high",
+  testingWindow: "Dec-Jan",
+  schedulePattern: "Annual",
+  ageGroup: "16-20",
+  targetUser: "Secondary student",
+  delivery: "Computer/paper mix",
+  questionTypes: ["Objective"],
+  adaptivity: "Linear",
+  sections: "English, critical thinking, future workforce",
+  scoringMode: "Score-based",
+  essayOrSpeaking: "No",
+  ipRisk: "Low",
+  contentReuse: "general_admissions",
+  uiEngine: "timed_objective",
+  monetizationPotential: "Medium",
+  tier: "Tier 4",
+  launchWave: "Wave 6",
+  themeColor: "#1E40AF",
+  themeColorDark: "#1E3A8A",
+  localizationComplexity: "Medium",
+  offlineNeeded: false,
+  mobileFirst: true,
+  locale: "th",
+  isRTL: false,
+  freemiumGate: {
+    dailyQuestions: 10,
+  },
+} as const;
+
+export type ExamConfig = typeof EXAM_CONFIG;

@@ -1,0 +1,5 @@
+Initial release of Koydo TGAT Prep.
+
+• Practice questions
+• Score tracking
+• AI tutor integration
